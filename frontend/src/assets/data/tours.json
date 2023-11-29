@@ -1,23 +1,23 @@
 [
   {
-    "title": "Westminister Bridge",
-    "city": "London",
+    "title": "Tirta Gangga",
+    "city": "Bali",
     "address": "Somewhere in London",
     "distance": 300,
-    "price": 99,
+    "price": 80,
     "maxGroupSize": 10,
     "desc": "this is the description",
     "reviews": [],
 
-    "photo": "/tour-images/tour-img01.jpg",
+    "photo": "/tour-images/tour-newimg01.jpg",
     "featured": true
   },
   {
-    "title": "Bali, Indonesia",
+    "title": "Pantai Kuta",
     "city": "Bali",
     "address": "Somewhere in Indonesia",
     "distance": 400,
-    "price": 99,
+    "price": 75,
     "maxGroupSize": 8,
     "desc": "this is the description",
     "reviews": [],
@@ -26,33 +26,33 @@
     "featured": true
   },
   {
-    "title": "Snowy Mountains, Thailand",
-    "city": "Bangkok",
+    "title": "Uluwatu Temple",
+    "city": "Bali",
     "address": "Somewhere in Thailand",
     "distance": 500,
-    "price": 99,
+    "price": 85,
     "maxGroupSize": 8,
     "desc": "this is the description",
     "reviews": [],
 
-    "photo": "/tour-images/tour-img03.jpg",
+    "photo": "/tour-images/tour-newimg03.jpg",
     "featured": true
   },
   {
-    "title": "Beautiful Sunrise, Thailand",
-    "city": "Phuket",
+    "title": "Pura Besakih",
+    "city": "Bali",
     "address": "Somewhere in Thailand",
     "distance": 500,
-    "price": 99,
+    "price": 20,
     "maxGroupSize": 8,
     "desc": "this is the description",
     "reviews": [],
 
-    "photo": "/tour-images/tour-img04.jpg",
+    "photo": "/tour-images/tour-newimg04.jpg",
     "featured": true
   },
   {
-    "title": "Nusa Pendia Bali, Indonesia",
+    "title": "Nusa Penida",
     "city": "Bali",
     "address": "Somewhere in Indonesia",
     "distance": 500,
@@ -65,8 +65,8 @@
     "featured": true
   },
   {
-    "title": "Cherry Blossoms Spring",
-    "city": "Tokyo",
+    "title": "Pantai Jimbaran",
+    "city": "Bali",
     "address": "Somewhere in Japan",
     "distance": 500,
     "price": 99,
@@ -78,21 +78,21 @@
     "featured": true
   },
   {
-    "title": "Holmen Lofoten, France",
-    "city": "Paris",
-    "address": "Somewhere in France",
+    "title": "Finns Beach Club",
+    "city": "Bali",
+    "address": "Jl Pantai Berawa, Canggu",
     "distance": 500,
     "price": 99,
     "maxGroupSize": 8,
     "desc": "this is the description",
     "reviews": [],
 
-    "photo": "/tour-images/tour-img07.jpg",
+    "photo": "/tour-images/tour-img08.jpg",
     "featured": true
   },
   {
-    "title": "Snowy Mountains, Thailand",
-    "city": "Bangkok",
+    "title": "Pantai Pandawa",
+    "city": "Bali",
     "address": "Somewhere in Thailand",
     "distance": 500,
     "price": 99,
@@ -100,7 +100,7 @@
     "desc": "this is the description",
     "reviews": [],
 
-    "photo": "/tour-images/tour-img03.jpg",
+    "photo": "/tour-images/tour-newimg08.jpg",
     "featured": true
   },
   {
