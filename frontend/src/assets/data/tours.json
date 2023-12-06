@@ -2,13 +2,12 @@
   {
     "title": "Tirta Gangga",
     "city": "Bali",
-    "address": "Somewhere in London",
+    "address": "Somewhere in Indonesia",
     "distance": 300,
     "price": 80,
     "maxGroupSize": 10,
     "desc": "this is the description",
     "reviews": [],
-
     "photo": "/tour-images/tour-newimg01.jpg",
     "featured": true
   },
@@ -21,7 +20,6 @@
     "maxGroupSize": 8,
     "desc": "this is the description",
     "reviews": [],
-
     "photo": "/tour-images/tour-img02.jpg",
     "featured": true
   },
@@ -34,7 +32,6 @@
     "maxGroupSize": 8,
     "desc": "this is the description",
     "reviews": [],
-
     "photo": "/tour-images/tour-newimg03.jpg",
     "featured": true
   },
@@ -47,7 +44,6 @@
     "maxGroupSize": 8,
     "desc": "this is the description",
     "reviews": [],
-
     "photo": "/tour-images/tour-newimg04.jpg",
     "featured": true
   },
@@ -60,7 +56,6 @@
     "maxGroupSize": 8,
     "desc": "this is the description",
     "reviews": [],
-
     "photo": "/tour-images/tour-img05.jpg",
     "featured": true
   },
@@ -73,7 +68,6 @@
     "maxGroupSize": 8,
     "desc": "this is the description",
     "reviews": [],
-
     "photo": "/tour-images/tour-img06.jpg",
     "featured": true
   },
@@ -86,7 +80,6 @@
     "maxGroupSize": 8,
     "desc": "this is the description",
     "reviews": [],
-
     "photo": "/tour-images/tour-img08.jpg",
     "featured": true
   },
@@ -99,7 +92,6 @@
     "maxGroupSize": 8,
     "desc": "this is the description",
     "reviews": [],
-
     "photo": "/tour-images/tour-newimg08.jpg",
     "featured": true
   },
@@ -112,7 +104,6 @@
     "maxGroupSize": 5,
     "desc": "this is the description",
     "reviews": [],
-
     "photo": "/tour-images/tour-img08.jpg",
     "featured": false
   },
@@ -125,7 +116,6 @@
     "maxGroupSize": 8,
     "desc": "this is the description",
     "reviews": [],
-
     "photo": "/tour-images/tour-img09.jpg",
     "featured": false
   }
