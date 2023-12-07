@@ -10,17 +10,19 @@ import {
     updateTour
 } from '../controllers/tourController.js';
 
+import { verifyAdmin } from '../utils/verifyToken.js';
+
 
 const router = express.Router()
 
 // create new tour
-router.post('/', createTour)
+router.post('/', verifyAdmin, createTour)
 
 // update tour
-router.put('/:id', updateTour)
+router.put('/:id', verifyAdmin, updateTour)
 
 // delete new tour
-router.delete('/:id', deleteTour)
+router.delete('/:id', verifyAdmin, deleteTour)
 
 // getSingle tour
 router.get('/:id', getSingleTour)
