@@ -65,6 +65,7 @@ export const getSingleTour = async (req, res) => {
 
     try {
         const tour = await Tour.findById(id)
+            .populate('reviews');
         res.status(200).json({
             success: true,
             message: 'Successfully single Get',
