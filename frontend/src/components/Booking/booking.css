@@ -19,7 +19,7 @@
 
 .booking__top span {
   font-size: 1.1rem;
-  font-weight: 500;
+  font-weight: 600;
   color: var(--text-color);
 }
 
@@ -28,7 +28,7 @@
 }
 
 .booking__top {
-  padding-bottom: 1rem;
+  padding-bottom: 2rem;
   border-bottom: 1px solid rgb(229, 231, 235);
 }
 
@@ -69,15 +69,16 @@
 .booking__bottom li span {
   font-size: 1rem;
   color: var(--text-color);
-  font-weight: 450;
+  font-weight: 500;
 }
 
-.booking__bottom{
-    margin-top: 1rem;
+.booking__bottom {
+  margin-top: 1rem;
 }
 
-.total h5, .total span {
-    color: var(--heading-color) !important;
-    font-weight: 500 !important;
-    font-size: 1rem !important;
+.total h5,
+.total span {
+  color: var(--heading-color) !important;
+  font-weight: 700 !important;
+  font-size: 1.1rem !important;
 }

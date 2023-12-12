@@ -1,34 +1,65 @@
-import React, { useState } from "react";
+import React, { useState, useContext } from "react";
 import "./booking.css";
 import { Form, FormGroup, ListGroup, ListGroupItem, Button } from "reactstrap";
+
 import { useNavigate } from "react-router-dom";
+import { AuthContext } from "../../context/AuthContext";
+import { BASE_URL } from "../../utils/config";
 
 const Booking = ({ tour, avgRating }) => {
-  const { price, reviews } = tour;
+  const { price, reviews, title } = tour;
   const navigate = useNavigate();
 
-  const [credentials, setCredentials] = useState({
-    userId: "01", // latter it will be dynamic
-    userEmail: "example@gmail.com",
+  const { user } = useContext(AuthContext);
+
+  const [booking, setBooking] = useState({
+    userId: user && user._id,
+    userEmail: user && user.email,
+    tourName: title,
     fullName: "",
     phone: "",
     guestSize: 1,
     bookAt: "",
   });
 
-  const handleChange = (e) => {
-    setCredentials((prev) => ({ ...prev, [e.target.id]: e.target.value }))
+  const handleChange = e => {
+    setBooking(prev => ({ ...prev, [e.target.id]: e.target.value }));
   };
 
   const serviceFee = 10;
   const totalAmount =
-    Number(price) * Number(credentials.guestSize) + Number(serviceFee);
+    Number(price) * Number(booking.guestSize) + Number(serviceFee);
 
-  // send data to the server
-  const handleClick = (e) => {
+  //   send data to the server
+  const handleClick = async e => {
     e.preventDefault();
 
-    navigate("/thank-you");
+    try {
+      if (!user || user === undefined || user === null) {
+        return alert("Please sign in");
+      }
+
+      const token = localStorage.getItem("token");
+
+      const res = await fetch(`${BASE_URL}/booking`, {
+        method: "post",
+        headers: {
+          "content-type": "application/json",
+          Authorization: `Bearer ${token}`,
+        },
+        // credentials: "include",
+        body: JSON.stringify(booking),
+      });
+
+      const result = await res.json();
+
+      if (!res.ok) {
+        return alert(result.message);
+      }
+      navigate("/thank-you");
+    } catch (err) {
+      alert(err.message);
+    }
   };
 
   return (
@@ -37,12 +68,13 @@ const Booking = ({ tour, avgRating }) => {
         <h3>
           ${price} <span>/per person</span>
         </h3>
-        <span className="tour__rating d-flex align-items-center">
+        <span className="tour__rating d-flex align-items-center ">
           <i class="ri-star-s-fill"></i>
           {avgRating === 0 ? null : avgRating} ({reviews?.length})
         </span>
       </div>
-      {/* ========== booking form */}
+
+      {/* ========== booking form ============= */}
       <div className="booking__form">
         <h5>Information</h5>
         <Form className="booking__info-form" onSubmit={handleClick}>
@@ -82,9 +114,9 @@ const Booking = ({ tour, avgRating }) => {
           </FormGroup>
         </Form>
       </div>
-      {/* ========== booking end */}
+      {/* ========== booking end ============= */}
 
-      {/* ========== booking bottom =========== */}
+      {/* ========= booking bottom ============ */}
       <div className="booking__bottom">
         <ListGroup>
           <ListGroupItem className="border-0 px-0">
