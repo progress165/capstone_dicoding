@@ -2,7 +2,7 @@ import React, { useRef, useEffect, useContext } from "react";
 import { Container, Row, Button } from "reactstrap";
 import { NavLink, Link, useNavigate } from "react-router-dom";
 
-import logo from "../../assets/images/logo.png";
+import logo from "../../assets/images/logobalinesia-valid.png";
 import "./header.css";
 
 import { AuthContext } from "./../../context/AuthContext";
