@@ -3,7 +3,7 @@ import "./common-section.css";
 
 import { Container, Row, Col } from "reactstrap";
 
-const CommonSection = ({ title }) => {
+const CommonSection = ({ title}) => {
   return (
     <section className="common__section">
       <Container>

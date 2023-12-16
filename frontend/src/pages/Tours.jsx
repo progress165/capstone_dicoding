@@ -29,15 +29,17 @@ const Tours = () => {
 
   return (
     <>
-      <CommonSection title={"All Tours"} />
-      <section>
+      <CommonSection 
+      title={"Semua Tour"} 
+       />
+      <section className="wrapper_tours">
         <Container>
-          <Row>
-            <SearchBar />
+          <Row className="mt-5">
+            <SearchBar/>
           </Row>
         </Container>
       </section>
-      <section className="pt-0">
+      <section className="wrapper_cards">
         <Container>
           {loading && <h4 className="text-center pt-5">Loading.....</h4>}
           {error && <h4 className="text-center pt-5">{error}</h4>}
