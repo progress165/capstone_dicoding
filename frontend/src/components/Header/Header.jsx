@@ -2,7 +2,7 @@ import React, { useRef, useEffect, useContext } from "react";
 import { Container, Row, Button } from "reactstrap";
 import { NavLink, Link, useNavigate } from "react-router-dom";
 
-import logo from "../../assets/images/logobalinesia-valid.png";
+import logotravel from "../../assets/images/logobalinesiaa.png";
 import "./header.css";
 
 import { AuthContext } from "./../../context/AuthContext";
@@ -60,9 +60,8 @@ const Header = () => {
         <Row>
           <div className="nav__wrapper d-flex align-items-center justify-content-between">
             {/* =========== logo ============ */}
-            <div className="logo">
-              <img src={logo} alt="" />
-            </div>
+              <img src={logotravel} alt="Logo Travel" />
+            
             {/* =========== logo  end============ */}
 
             {/* ===========menu start============ */}

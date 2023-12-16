@@ -4,9 +4,10 @@
   line-height: 80px;
 }
 
-.logo img {
-  width: 30%;
+.nav__wrapper img {
+  width: 190px;
 }
+
 
 .menu {
   margin-bottom: 0;
@@ -47,8 +48,9 @@
 
 /* ========== make it responsive ========= */
 @media only screen and (max-width: 992px) {
-  .logo img {
-    width: 20%;
+
+  .nav__wrapper img {
+    width: 160px;
   }
 
   .navigation {
@@ -85,10 +87,11 @@
 }
 
 @media only screen and (max-width: 768px) {
-  .logo img {
-    width: 45%;
-  }
 
+  .nav__wrapper img {
+    width: 140px;
+  }
+  
   .menu {
     width: calc(100% - 50%);
   }

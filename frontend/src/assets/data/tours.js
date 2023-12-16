@@ -1,5 +1,5 @@
-import tourImg01 from "../images/tour-img01.jpg";
-import tourImg02 from "../images/tour-img02.jpg";
+import tourImg01 from "../images/tour-newimg01.jpg";
+import tourImg02 from "../images/tour-newimg02.jpg";
 import tourImg03 from "../images/tour-img03.jpg";
 import tourImg04 from "../images/tour-img04.jpg";
 import tourImg05 from "../images/tour-img05.jpg";
@@ -153,6 +153,77 @@ const tours = [
     photo: tourImg03,
     featured: false,
   },
+  {
+    id: "09",
+    title: "Snowy Mountains, Thailand",
+    city: "Thailand",
+    distance: 500,
+    price: 99,
+    address: "Somewhere",
+    maxGroupSize: 8,
+    desc: "this is the description",
+    reviews: [],
+    avgRating: 4.5,
+    photo: tourImg03,
+    featured: false,
+  },
+  {
+    id: "10",
+    title: "Snowy Mountains, Thailand",
+    city: "Thailand",
+    distance: 500,
+    price: 99,
+    address: "Somewhere",
+    maxGroupSize: 8,
+    desc: "this is the description",
+    reviews: [],
+    avgRating: 4.5,
+    photo: tourImg03,
+    featured: false,
+  },
+  {
+    id: "11",
+    title: "Snowy Mountains, Thailand",
+    city: "Thailand",
+    distance: 500,
+    price: 99,
+    address: "Somewhere",
+    maxGroupSize: 8,
+    desc: "this is the description",
+    reviews: [],
+    avgRating: 4.5,
+    photo: tourImg03,
+    featured: false,
+  },
+  {
+    id: "12",
+    title: "Snowy Mountains, Thailand",
+    city: "Thailand",
+    distance: 500,
+    price: 99,
+    address: "Somewhere",
+    maxGroupSize: 8,
+    desc: "this is the description",
+    reviews: [],
+    avgRating: 4.5,
+    photo: tourImg03,
+    featured: false,
+  },
+  {
+    id: "13",
+    title: "Snowy Mountains, Thailand",
+    city: "Thailand",
+    distance: 500,
+    price: 99,
+    address: "Somewhere",
+    maxGroupSize: 8,
+    desc: "this is the description",
+    reviews: [],
+    avgRating: 4.5,
+    photo: tourImg03,
+    featured: false,
+  },
+
 ];
 
 export default tours;

@@ -13,7 +13,21 @@
   font-weight: 700;
 }
 
+.wrapper_cards {
+  margin-top: -80px;
+}
+
 .active__page {
   background: var(--secondary-color);
   color: #fff !important;
+}
+
+@media only screen and (max-width: 992px) {
+  .wrapper_tours {
+    margin-top: -125px;
+  }
+
+  .wrapper_cards {
+    margin-top: 0;
+  }
 }
