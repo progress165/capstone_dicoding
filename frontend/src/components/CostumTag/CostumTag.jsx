@@ -1,8 +1,14 @@
 import React, { useState } from 'react';
 import "./costumtag.css";
+<<<<<<< HEAD
 import baliN from "../../assets/images/pedih-1.png";
 import baliS from "../../assets/images/balinesia-2.png";
 import baliA from "../../assets/images/pedih-3.png";
+=======
+import baliN from "../../assets/images/balinesia-1.jpg";
+import baliS from "../../assets/images/balinesia-2.jpg";
+import baliA from "../../assets/images/balinesia-3.jpg";
+>>>>>>> 50b13798b4034614b4b130b9e1008c5608b65518
 
 import {
   Carousel,
