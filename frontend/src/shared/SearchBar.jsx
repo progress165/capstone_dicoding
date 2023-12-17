@@ -5,8 +5,6 @@ import { Col, Form, FormGroup } from "reactstrap";
 import { BASE_URL } from "./../utils/config";
 
 import { useNavigate } from "react-router-dom";
-import { IoLocationOutline } from "react-icons/io5";
-import { IoPeople } from "react-icons/io5";
 
 const SearchBar = () => {
   const locationRef = useRef("");
@@ -38,43 +36,7 @@ const SearchBar = () => {
 
   return (
     <Col lg="12">
-      <div className="section_searchbar">
-        <div className="search_bar">
-          <Form className="d-flex align-items-center gap-2 wrapper">
-            <FormGroup className="form_group form__group-fast">
-              <div className="header_searchbar">
-                <IoLocationOutline  size={30} style={{ marginRight: '5px', color: '#5FBDFF' }}/>
-                <input
-                  type="text"
-                  placeholder="Kemana anda akan pergi?"
-                  ref={locationRef}
-                />
-              </div>
-            </FormGroup>
-
-            <FormGroup className="form_group form__group-fast">
-              <div className="header_searchbar">
-                <IoPeople  size={30} style={{ marginRight: '5px', color: '#5FBDFF' }}/>
-                <input
-                  type="number"
-                  placeholder="0"
-                  ref={maxGroupSizeRef}
-                />
-              </div>
-            </FormGroup>
-
-            <span 
-            className="btn_searchbar"
-            type="submit"
-            onClick={searchHandler}>
-            <i class="ri-search-line"></i>
-            </span>
-          </Form>
-        </div>
-      </div>
-
-
-      {/* <div className="search__bar">
+      <div className="search__bar">
         <Form className="d-flex align-items-center gap-4">
           <FormGroup className="d-flex gap-3 form__group form__group-fast">
             <span>
@@ -104,7 +66,7 @@ const SearchBar = () => {
             <i class="ri-search-line"></i>
           </span>
         </Form>
-      </div> */}
+      </div>
     </Col>
   );
 };
