@@ -5,12 +5,7 @@ import "slick-carousel/slick/slick-theme.css";
 
 import { Container, Row, Col } from "reactstrap";
 import heroImg from "../assets/images/hero-img.jpg";
-import heroImg02 from "../assets/images/gallery-03.jpg";
-import heroVideo from "../assets/images/hero-video.mp4";
-import worldImg from "../assets/images/world.png";
-import experienceImg from "../assets/images/experience.png";
 import featuredImg from "../assets/images/ourfeatured.png";
-import Subtitle from "./../shared/Subtitle";
 import SearchBar from "../shared/SearchBar";
 import FeaturedTourList from "../components/Featured-tours/FeaturedTourList";
 import Testimonials from "../components/Testimonial/Testimonials";
@@ -43,12 +38,6 @@ const Home = () => {
                 <img src={heroImg} alt="" />
               </div>
             </Col>
-            
-            {/* <Col lg="2">
-              <div className="hero__img-box mt-5">
-                <img src={heroImg02} alt="" />
-              </div>
-            </Col> */}
 
             <SearchBar />
           </Row>
@@ -113,11 +102,7 @@ const Home = () => {
                     <h1>Kemudahan Pengguna</h1>
                     <p>Panduan yang lengkap dan memudahkan pengguna dalam menggunakan website.</p>
                   </div>
-                </div>
-                
-
-                
-      
+                </div>     
               </div>
             </Col>
             <Col lg="6">

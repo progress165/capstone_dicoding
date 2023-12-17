@@ -61,7 +61,7 @@ const Testimonials = () => {
 
       <div className="testi">
         <div className="d-flex justify-content-center">
-          <img src={ava01} className="w-25 h-25 rounded-5" alt="" />
+          <img src={ava02} className="w-25 h-25 rounded-5" alt="" />
         </div>
         <div className="testi_content text-center">
           <h1>John Doe</h1>
@@ -71,80 +71,13 @@ const Testimonials = () => {
 
       <div className="testi">
         <div className="d-flex justify-content-center">
-          <img src={ava01} className="w-25 h-25 rounded-5" alt="" />
+          <img src={ava03} className="w-25 h-25 rounded-5" alt="" />
         </div>
         <div className="testi_content text-center">
           <h1>John Doe</h1>
           <p>Travel agency ini sungguh mengagumkan! Mereka membantu merencanakan liburan keluarga kami dengan sempurna. Anak-anak juga sangat menikmatinya!</p>
         </div>
       </div>
-      
-      {/* <div className="testimonial py-4 px-3">
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus sit,
-          explicabo provident hic distinctio molestias voluptates nobis alias
-          placeat suscipit earum debitis recusandae voluptate illum expedita
-          corrupti aliquid doloribus delectus?
-        </p>
-
-        <div className="d-flex align-items-center gap-4 mt-3">
-          <img src={ava01} className="w-25 h-25 rounded-2" alt="" />
-          <div>
-            <h6 className="mb-0 mt-3">Lia Franklin</h6>
-            <p>Customer</p>
-          </div>
-        </div>
-      </div>
-
-      <div className="testimonial py-4 px-3">
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus sit,
-          explicabo provident hic distinctio molestias voluptates nobis alias
-          placeat suscipit earum debitis recusandae voluptate illum expedita
-          corrupti aliquid doloribus delectus?
-        </p>
-
-        <div className="d-flex align-items-center gap-4 mt-3">
-          <img src={ava02} className="w-25 h-25 rounded-2" alt="" />
-          <div>
-            <h6 className="mb-0 mt-3">Lia Franklin</h6>
-            <p>Customer</p>
-          </div>
-        </div>
-      </div>
-      <div className="testimonial py-4 px-3">
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus sit,
-          explicabo provident hic distinctio molestias voluptates nobis alias
-          placeat suscipit earum debitis recusandae voluptate illum expedita
-          corrupti aliquid doloribus delectus?
-        </p>
-
-        <div className="d-flex align-items-center gap-4 mt-3">
-          <img src={ava03} className="w-25 h-25 rounded-2" alt="" />
-          <div>
-            <h6 className="mb-0 mt-3">John Doe</h6>
-            <p>Customer</p>
-          </div>
-        </div>
-      </div>
-
-      <div className="testimonial py-4 px-3">
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus sit,
-          explicabo provident hic distinctio molestias voluptates nobis alias
-          placeat suscipit earum debitis recusandae voluptate illum expedita
-          corrupti aliquid doloribus delectus?
-        </p>
-
-        <div className="d-flex align-items-center gap-4 mt-3">
-          <img src={ava02} className="w-25 h-25 rounded-2" alt="" />
-          <div>
-            <h6 className="mb-0 mt-3">Lia Franklin</h6>
-            <p>Customer</p>
-          </div>
-        </div>
-      </div> */}
     </Slider>
   );
 };

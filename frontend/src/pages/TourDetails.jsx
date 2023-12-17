@@ -68,9 +68,10 @@ const TourDetails = () => {
       const result = await res.json();
       if (!res.ok) {
         return alert(result.message);
+      } else {
+        alert(result.message);
+        window.location.reload();
       }
-
-      alert(result.message);
     } catch (err) {
       alert(err.message);
     }
@@ -154,7 +155,7 @@ const TourDetails = () => {
                         <input
                           type="text"
                           ref={reviewMsgRef}
-                          placeholder="share your thoughts"
+                          placeholder="Ceritakan pengalaman anda.."
                           required
                         />
                         <button
