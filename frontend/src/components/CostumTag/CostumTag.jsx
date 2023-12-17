@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import "./costumtag.css";
-import baliN from "../../assets/images/balinesia-1.png";
-import baliS from "../../assets/images/balinesia-2.png";
-import baliA from "../../assets/images/balinesia-3.png";
+import baliN from "../../assets/images/balinesia-1.jpg";
+import baliS from "../../assets/images/balinesia-2.jpg";
+import baliA from "../../assets/images/balinesia-3.jpg";
 
 import {
   Carousel,
