@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import "../styles/about.css";
 
-import logoBan from "../assets/images/logobalinesia-valid.png";
-import travels from "../assets/images/travel-1.png";
+import logoBan from "../assets/images/logobalinesiaa.png";
+import travels from "../assets/images/travel-1.jpg";
 import CostumTag from "../components/CostumTag/CostumTag";
 import Search from "../components/Search/Search";
 

@@ -4,8 +4,8 @@ import { Container, Row, Col, Form, FormGroup, Button } from "reactstrap";
 import { Link, useNavigate } from "react-router-dom";
 import "../styles/login.css";
 
-import registerImg from "../assets/images/register.png";
-import userIcon from "../assets/images/user.png";
+import registerImg from "../assets/images/register.jpeg";
+import userIcon from "../assets/images/usericon.svg";
 
 import { AuthContext } from "./../context/AuthContext";
 import { BASE_URL } from "./../utils/config";
