@@ -1,4 +1,6 @@
 import React from "react";
+import "./search.css";
+
 import {
   Container,
   Row,
@@ -11,7 +13,11 @@ import {
 } from "reactstrap";
 import { FaInstagram, FaGithub, FaLinkedinIn } from "react-icons/fa";
 
-import users from "../../assets/images/users.webp";
+import users01 from "../../assets/images/user-arya.png";
+import users02 from "../../assets/images/user-rifqi.png";
+import users03 from "../../assets/images/user-toriq.png";
+import users04 from "../../assets/images/user-okta.png";
+import users05 from "../../assets/images/user-chris.png";
 
 const Search = () => {
   return (
@@ -35,21 +41,21 @@ const Search = () => {
               <Card className="mx-auto text-center">
                 <CardBody className="text-center">
                   <img
-                    src={users}
+                    src={orang.photo}
                     alt="..."
-                    className="card-img-top p-2 m-2"
-                    style={{ maxWidth: "100px" }}
+                    className="card-img-top card_image"
+                    style={{ maxWidth: "170px" }}
                   />
-                  <CardTitle tag="h5" className="text-xl font-bold">
+                  <CardTitle tag="h5" className="text-xl font-bold name_card">
                     {orang.nama}
                   </CardTitle>
-                  <CardText className="text-sm text-gray-500 uppercase font-semibold">
+                  <CardText className="position_card">
                     {orang.posisi}
                   </CardText>
-                  <CardText className="text-sm text-gray-300 uppercase font-semibold">
+                  <CardText className="text-sm text-gray-300 uppercase font-semibold minat_card">
                     {orang.minat}
                   </CardText>
-                  <div className="mt-6 pt-5">
+                  <div className="sosial_media">
                     {orang.mediaSosial.map((media, i) => (
                       <Button
                         key={i}
@@ -78,6 +84,7 @@ const pendiri = [
     nama: "Ahmad Attoriq",
     posisi: "F-08",
     minat: "Front-End Developer",
+    photo: users03,
     githubUsername: "ahmads99",
     mediaSosial: [
       { icon: <FaGithub />, warna: "dark" },
@@ -87,8 +94,9 @@ const pendiri = [
   },
   {
     nama: "Arya Haekal",
-    posisi: "F-08",
+    posisi: "F-13",
     minat: "Front-End Developer",
+    photo: users01,
     githubUsername: "aryaaa40",
     mediaSosial: [
       { icon: <FaGithub />, warna: "dark" },
@@ -98,8 +106,9 @@ const pendiri = [
   },
   {
     nama: "M. Rifqi Fauzi",
-    posisi: "F-08",
+    posisi: "F-06",
     minat: "Front-End Developer",
+    photo: users02,
     githubUsername: "rifqifauzi24",
     mediaSosial: [
       { icon: <FaGithub />, warna: "dark" },
@@ -111,6 +120,7 @@ const pendiri = [
     nama: "Christian Frans",
     posisi: "F-08",
     minat: "Back-End Developer",
+    photo: users05,
     githubUsername: "christianfrans",
     mediaSosial: [
       { icon: <FaGithub />, warna: "dark" },
@@ -120,8 +130,9 @@ const pendiri = [
   },
   {
     nama: "Okta Prianto",
-    posisi: "F-08",
+    posisi: "S-02",
     minat: "Fullstack Developer",
+    photo: users04,
     githubUsername: "oktaprianto",
     mediaSosial: [
       { icon: <FaGithub />, warna: "dark" },

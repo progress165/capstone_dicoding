@@ -1,0 +1,29 @@
+.name_card {
+    margin-top: 10px;
+    font-weight: 700;
+}
+
+.card_image {
+    margin-top: -20px;
+    margin-bottom: 10px;
+}
+
+.position_card {
+    margin-top: -5px;
+    font-weight: 500;
+}
+
+.minat_card {
+    margin-top: -10px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.name_card, .position_card {
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.sosial_media {
+    margin-top: 10px;
+}
