@@ -1,1 +1,1 @@
-export const BASE_URL = "https://balinesia-api.cyclic.app/api/v1";
+export const BASE_URL = "https://apibackendbalinesia-8p69icnc.b4a.run/";
