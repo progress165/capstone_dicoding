@@ -50,7 +50,7 @@
 @media only screen and (max-width: 992px) {
 
   .nav__wrapper img {
-    width: 160px;
+    width: 20%;
   }
 
   .navigation {
@@ -89,9 +89,9 @@
 @media only screen and (max-width: 768px) {
 
   .nav__wrapper img {
-    width: 140px;
+    width: 45%;
   }
-  
+
   .menu {
     width: calc(100% - 50%);
   }
