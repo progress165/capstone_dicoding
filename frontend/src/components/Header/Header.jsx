@@ -60,8 +60,8 @@ const Header = () => {
         <Row>
           <div className="nav__wrapper d-flex align-items-center justify-content-between">
             {/* =========== logo ============ */}
-              <img src={logotravel} alt="Logo Travel" />
-            
+            <img src={logotravel} alt="Logo Travel" />
+
             {/* =========== logo  end============ */}
 
             {/* ===========menu start============ */}

@@ -70,4 +70,9 @@
   .form__group h6 {
     font-size: 1rem !important;
   }
+
+  .form__group-fast {
+    border-right: none;
+  }
+
 }
