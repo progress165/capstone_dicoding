@@ -53,6 +53,6 @@ app.use("/api/v1/booking", bookingRoute);
 
 // Ekspor aplikasi Express.js sebagai handler Serverless
 // Vercel akan secara otomatis mendeteksi dan mengeksekusi ini
-module.exports = app;
+export default app;
 
 // Catatan: app.listen() DIHAPUS karena tidak diperlukan di lingkungan Vercel.
